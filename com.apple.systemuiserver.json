@@ -1,0 +1,22 @@
+{
+	"title": "com.apple.systemuiserver",
+	"description": "Configures SystemUI Server settings",
+	"properties": {
+        "menuExtras": {
+            "title": "Menu Extras",
+            "description": "List of menu extras to combine with the user's menu bar.",
+            "property_order": 5,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "title": "Entries"
+                    }
+                }
+            ]
+        }
+	}
+}

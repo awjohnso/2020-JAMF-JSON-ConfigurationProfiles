@@ -1,0 +1,18 @@
+{
+	"title": "com.apple.gamed",
+	"description": "Configures Parental Controls: Game Center settings.",
+	"properties": {
+        "GKFeatureGameCenterAllowed": {
+            "title": "Allow use of Game Center",
+            "description": "Set to false to disable Game Center.",
+            "property_order": 5,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        }
+	}
+}

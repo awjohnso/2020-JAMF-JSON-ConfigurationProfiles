@@ -1,0 +1,30 @@
+{
+	"title": "com.apple.screensaver",
+	"description": "Apple Screen Saver settings.",
+	"properties": {
+        "askForPasswordDelay": {
+            "title": "Require password delay",
+            "description": "Number of seconds to delay before the password will be required to unlock or stop the screen saver (the "grace period"). A value of 2147483647 can be used to disable this requirement.",
+            "property_order": 5,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "integer"
+                }
+            ]
+        },
+        "askForPassword": {
+            "title": "Require password to unlock the screen.",
+            "description": "If true, the user will be prompted for a password when the screensaver is unlocked or stopped.",
+            "property_order": 10,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        }
+	}
+}

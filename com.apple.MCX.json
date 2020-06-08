@@ -1,0 +1,18 @@
+{
+	"title": "com.apple.MCX",
+	"description": "Configures Internet Sharing.",
+	"properties": {
+        "forceInternetSharingOff": {
+            "title": "Force Internet Sharing Off",
+            "description": "Force internet sharing off.",
+            "property_order": 5,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        }
+	}
+}

@@ -1,0 +1,102 @@
+{
+	"title": "com.apple.SetupAssistant.managed",
+	"description": "Configures Setup Assistant settings",
+	"properties": {
+        "SkipCloudSetup": {
+            "title": "Skip iCloud",
+            "description": "Skips the Apple ID setup window.",
+            "property_order": 5,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "SkipPrivacySetup": {
+            "title": "Skip Privacy consent window",
+            "description": "Skips the Privacy consent window.",
+            "property_order": 10,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "SkipiCloudStorageSetup": {
+            "title": "Skip iCloud Storage Setup window",
+            "description": "Skips the iCloud Storage window.",
+            "property_order": 15,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "SkipSiriSetup": {
+            "title": "Skip Siri",
+            "description": "Skips the Siri setup window.",
+            "property_order": 20,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "SkipTrueTone": {
+            "title": "Skip True Tone Display window",
+            "description": "Skips the True Tone Display window.",
+            "property_order": 25,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "SkipScreenTime": {
+            "title": "Skip Screen Time window",
+            "description": "Skips the Screen Time window.",
+            "property_order": 30,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "SkipAppearance": {
+            "title": "Skip Appearance window",
+            "description": "Skips the Choose Your Look window.",
+            "property_order": 35,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "SkipTouchIDSetup": {
+            "title": "Skip TouchID",
+            "description": "Skips the TouchID setup window.",
+            "property_order": 40,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        }
+	}
+}

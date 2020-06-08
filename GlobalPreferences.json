@@ -1,0 +1,18 @@
+{
+	"title": ".GlobalPreferences",
+	"description": "Fast User Switching.",
+	"properties": {
+        "MultipleSessionEnabled": {
+            "title": "MultipleSessionEnabled: True is on False is off.",
+            "description": "Turn off Fast User Switching.",
+            "property_order": 5,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        }
+	}
+}

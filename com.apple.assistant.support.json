@@ -1,0 +1,18 @@
+{
+	"title": "com.apple.assistant.support",
+	"description": "Disable Siri",
+	"properties": {
+        "Assistant Enabled": {
+            "title": "Assistant Enabled",
+            "description": "",
+            "property_order": 5,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        }
+	}
+}

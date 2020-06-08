@@ -1,0 +1,55 @@
+{
+	"title": "loginwindow",
+	"description": "Configures Login Window: Login Items settings.",
+	"properties": {
+        "DisableLoginItemsSuppression": {
+            "title": "Disable shift to suppress login items",
+            "description": "Prevent users from disabling login items launching using the Shift key.",
+            "property_order": 5,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "AutoLaunchedApplicationDictionary-managed": {
+            "title": "Launch network home share point at login",
+            "description": "Automatically launch the users network home share point when logging in.",
+            "property_order": 10,
+            "anyOf": [{
+                "type": "null",
+                "title": "Not Configured"
+            },
+			{
+				"title": "Configured",
+				"type": "array",
+				"items": {
+					"type": "object",
+					"properties": {
+						"AuthenticateAsLoginUserShortName": {
+							"type": "boolean",
+							"default": "true",
+							"title": "Authenticate with short name.",
+							"description": "Authenticate to the URL with the current users short name. Required if URL is specified, but not for Path."
+						},
+						"Hide": {
+							"type": "boolean",
+							"default": "true",
+							"title": "Hide",
+							"description": "Hide application at launch."
+						},
+						"MCX-NetworkHomeDirectoryItem": {
+							"type": "boolean",
+							"default": "true",
+							"title": "Mount network home",
+							"description": "Mount network home."
+						}
+					}
+				}
+			}
+            ]
+        }
+	}
+}

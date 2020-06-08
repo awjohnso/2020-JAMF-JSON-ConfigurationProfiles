@@ -1,0 +1,19 @@
+{
+	"title": "com.apple.coreservices.uiagent",
+	"description": "Configures CoreServices UIAgent settings.",
+	"properties": {
+        "CSUIDisable32BitWarnings": {
+            "title": "Hid 32-bit app compatibility alert",
+            "description": "Hides the one-time alert shown when opening a 32-bit application. (macOS 10.14.0+)
+Note: To hide the 32-bit app compatibility alert on macOS 10.13.4-10.13.6 use the Global Preferences payload.",
+            "property_order": 5,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        }
+	}
+}

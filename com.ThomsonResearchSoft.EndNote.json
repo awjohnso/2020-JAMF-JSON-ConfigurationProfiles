@@ -1,0 +1,46 @@
+{
+	"title": "com.ThomsonResearchSoft.EndNote",
+	"description": "Configures EndNote settings",
+	"properties": {
+        "ShowGettingStartedX9": {
+            "title": "Show Getting Started",
+            "description": "Set to 0 to disable EndNote Getting Started prompts.",
+            "property_order": 5,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "string"
+                }
+            ]
+        },
+        "AcceptedENX9EULA": {
+            "title": "Accept EndNote X9 EULA",
+            "description": "Set to 1 to accept EndNote X9 EULA and hide the dialog from users.",
+            "property_order": 10,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "string"
+                }
+            ]
+        },
+        "IgnoredVersions": {
+            "title": "Suppress 'Important Update' Messages",
+            "description": "Suppress "Important Update" messaging at first run. Correct value is the whole version number, e.g. 2019.7.24.0. Mulitple versions can be specified.",
+            "property_order": 15,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "title": "Entries"
+                    }
+                }
+            ]
+        }
+	}
+}

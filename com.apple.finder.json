@@ -1,0 +1,126 @@
+{
+	"title": "com.apple.finder",
+	"description": "",
+	"properties": {
+        "WarnOnEmptyTrash": {
+            "title": "Show warning before emptying the Trash",
+            "description": "Warning message requiring user approval before emptying the Trash.",
+            "property_order": 5,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "ProhibitGoToFolder": {
+            "title": "Prohibit Go to Folder",
+            "description": "Allows user to open files or folders by typing a pathname.",
+            "property_order": 10,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "ProhibitConnectTo": {
+            "title": "Prohibit Connect to Server",
+            "description": "Opens a dialog box for finding servers on the network.",
+            "property_order": 15,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "InterfaceLevel": {
+            "title": "Finder Interface Level",
+            "description": "Select if the standard (Full) or (Simple) Finder should be used.",
+            "property_order": 20,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "string"
+                }
+            ]
+        },
+        "ShowMountedServersOnDesktop": {
+            "title": "Show Connected Servers on the Desktop",
+            "description": "Show connected servers on the desktop.",
+            "property_order": 25,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "ProhibitBurn": {
+            "title": "Prohibit Burn Disc",
+            "description": "Writes permanent information to a CD or DVD. Disc burning restrictions require both Disc Burning and Finder payloads.",
+            "property_order": 30,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "ShowHardDrivesOnDesktop": {
+            "title": "Show Internal Hard Drives on the Desktop",
+            "description": "Show hard disks on the desktop.",
+            "property_order": 35,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "ShowExternalHardDrivesOnDesktop": {
+            "title": "Show External disks",
+            "description": "Show External Hard Drives on the Desktop.",
+            "property_order": 40,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "ProhibitEject": {
+            "title": "Prohibit Eject",
+            "description": "Ejects removable media and mountable volumes.",
+            "property_order": 45,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "ShowRemovableMediaOnDesktop": {
+            "title": "Show Removable media (CDs, DVDs, etc.) on the Desktop",
+            "description": "Show removable media on the desktop.",
+            "property_order": 50,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        }
+	}
+}

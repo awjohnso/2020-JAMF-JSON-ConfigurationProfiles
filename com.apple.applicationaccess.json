@@ -1,0 +1,342 @@
+{
+	"title": "com.apple.applicationaccess",
+	"description": "Configures restrictions",
+	"properties": {
+        "allowCloudReminders": {
+            "title": "Allow iCloud Reminders",
+            "description": "",
+            "property_order": 5,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "allowDefinitionLookup": {
+            "title": "Allow Definition Lookup",
+            "description": "",
+            "property_order": 10,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "allowCloudCalendar": {
+            "title": "Allow iCloud Calendar",
+            "description": "",
+            "property_order": 15,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "allowCloudBookmarks": {
+            "title": "Allow iCloud Bookmarks",
+            "description": "",
+            "property_order": 20,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "allowCloudAddressBook": {
+            "title": "Allow iCloud Contacts",
+            "description": "",
+            "property_order": 25,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "allowCloudDocumentSync": {
+            "title": "Allow iCloud Drive",
+            "description": "",
+            "property_order": 30,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "allowCamera": {
+            "title": "Allow use of Camera",
+            "description": "",
+            "property_order": 35,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "allowSpotlightInternetResults": {
+            "title": "Allow Internet search results in Spotlight",
+            "description": "",
+            "property_order": 40,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "allowPasswordAutoFill": {
+            "title": "Allow Password AutoFill",
+            "description": "",
+            "property_order": 45,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "allowScreenShot": {
+            "title": "Allow screenshots and screen recording",
+            "description": "",
+            "property_order": 50,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "allowCloudPhotoLibrary": {
+            "title": "Allow iCloud Photo Library",
+            "description": "",
+            "property_order": 55,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "allowCloudKeychainSync": {
+            "title": "Allow iCloud Keychain",
+            "description": "",
+            "property_order": 60,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "allowCloudMail": {
+            "title": "Allow iCloud Mail",
+            "description": "",
+            "property_order": 65,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "allowContentCaching": {
+            "title": "Allow Content Caching",
+            "description": "",
+            "property_order": 70,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "allowCloudDesktopAndDocuments": {
+            "title": "Allow iCloud Desktop and Documents",
+            "description": "",
+            "property_order": 75,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "allowAirPrintiBeaconDiscovery": {
+            "title": "Allow iBeacon discovery of AirPrint printers.",
+            "description": "If set to false, this prevents prevents spurious AirPrint Bluetooth beacons from phishing for network traffic.",
+            "property_order": 80,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "allowActivityContinuation": {
+            "title": "Allow Handoff",
+            "description": "",
+            "property_order": 85,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "allowAutoUnlock": {
+            "title": "Allow Watch to auto unlock the Device",
+            "description": "",
+            "property_order": 90,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "allowPasswordSharing": {
+            "title": "Allow Password Sharing",
+            "description": "",
+            "property_order": 95,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "allowFingerprintForUnlock": {
+            "title": "Allow Touch ID to unlock the Device",
+            "description": "",
+            "property_order": 100,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "allowiTunesFileSharing": {
+            "title": "Allow iTunes File Sharing",
+            "description": "",
+            "property_order": 105,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "allowCloudFMM": {
+            "title": "Allow iCloud Back to My Mac",
+            "description": "",
+            "property_order": 110,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "allowCloudNotes": {
+            "title": "Allow iCloud Notes",
+            "description": "",
+            "property_order": 115,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "allowPasswordProximityRequests": {
+            "title": "Allow Password Proximity Requests",
+            "description": "",
+            "property_order": 120,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "allowCloudBTMM": {
+            "title": "Allow iCloud Back to My Mac",
+            "description": "",
+            "property_order": 125,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "allowMusicService": {
+            "title": "Allow Apple Music",
+            "description": "",
+            "property_order": 130,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "allowAirPrint": {
+            "title": "Allow AirPrint",
+            "description": "",
+            "property_order": 135,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "allowDiagnosticSubmission": {
+            "title": "Allow Diagnostic Submission",
+            "description": "",
+            "property_order": 140,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        }
+	}
+}

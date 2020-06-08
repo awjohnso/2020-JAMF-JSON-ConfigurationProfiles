@@ -1,0 +1,18 @@
+{
+	"title": "com.apple.TimeMachine",
+	"description": "",
+	"properties": {
+        "DoNotOfferNewDisksForBackup": {
+            "title": "Do Not Offer New Disks For Backup",
+            "description": "",
+            "property_order": 5,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        }
+	}
+}
